@@ -83,7 +83,6 @@ Resources:
           cd /var/www/html
           echo "it works! Udagram, Udacity!" > index.html
       ImageId: ami-053b0d53c279acc90
-      KeyName: key-part-project-2
       SecurityGroups:
       - Ref: WebServerSecGroup
       IamInstanceProfile: !Ref S3InstanceProfile
